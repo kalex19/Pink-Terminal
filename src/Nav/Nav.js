@@ -5,13 +5,13 @@ export class Nav extends Component {
   render() {
     return (
       <nav className="navContainer">
-        <h1>PINK TERMINAL</h1>
+        <h1>PINK ● TERMINAL</h1>
         <div className="menuOptions">
-          <button>ABOUT</button>
-          <button>PORTFOLIO</button>
-          <button>RESUME</button>
-          <button>MEDIA</button>
-          <button>CONTACT</button>
+          <a>ABOUT</a>
+          <a>PORTFOLIO</a>
+          <a>RESUME</a>
+          <a>MEDIA</a>
+          <a>CONTACT</a>
         </div>
       </nav>
     )

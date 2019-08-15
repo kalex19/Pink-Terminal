@@ -7,6 +7,7 @@ import Portfolio from '../Portfolio/Portfolio';
 import Resume from '../Resume/Resume';
 import Media from '../Media/Media';
 import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 
 
 function App() {

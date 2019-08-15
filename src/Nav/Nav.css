@@ -1,15 +1,33 @@
-* {
-  border: 2px solid pink;
+
+.navContainer {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 h1 {
   font-family: monospace;
   font-size: 4em;
   margin: 2% 5%;
+  text-align: center;
+  font-family: "Monoton";
+  background-color: #ff0097e8;
+  /* cinzel, cardo, monoton!, barriecito, Reenie Beanie,  */
 }
 
 .menuOptions {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-top: 10%;
+}
+
+a {
+  height: 40px;
+  font-family: "reenie beanie";
+  font-size: 1.5em;
+  font-weight: 600; 
+}
+
+a:hover {
+  border-bottom: 1px solid #ff0097e8;
 }
