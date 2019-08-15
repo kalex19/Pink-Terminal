@@ -1,0 +1,15 @@
+* {
+  border: 2px solid pink;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 4em;
+  margin: 2% 5%;
+}
+
+.menuOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
