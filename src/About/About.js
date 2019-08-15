@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section>
       <article>
-        <img src="IMG_7052.jpg" alt="About Katie"></img>
+        <img class="profileImg" src="./uby-yanes-hNmEo1IllUg-unsplash.jpg" alt="About Katie"></img>
       </article>
       <article>
         <h3>About Katie Lewis</h3>

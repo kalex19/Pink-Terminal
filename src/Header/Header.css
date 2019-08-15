@@ -1,11 +1,47 @@
+header {
+  padding-top: 150px;
+}
+
 .gallery {
   height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./carlos-irineu-da-costa-bjsaHc2jx3Y-unsplash.jpg');
+  padding: 1% 3%;
 }
 
-/* make gallery with dots to scroll, each new image has a new quote?? */
+/* make gallery with dots to scroll, each new image has a new quote and an image that represents me/i took?? */
+
+h2 {
+  color: #ff0097e8;
+  font-family: "Beth Ellen";
+  font-size: 3em;
+}
 
 h3 {
-  margin: 20% 30%;
   text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4em;
+  word-spacing: 15px;
+  margin: 0 30%;
+  justify-content: center;
 }
+
+.icon {
+  font-size: 7em;
+  color: white;
+  margin: 15% 0;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .18s ease-in-out;
+          transition:         transform .18s ease-in-out;
+}
+
+.icon:hover {
+  color: #ff0097e8;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 

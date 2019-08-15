@@ -2,6 +2,10 @@
 .navContainer {
   display: grid;
   grid-template-columns: 50% 50%;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  width: 100%;
 }
 
 h1 {
