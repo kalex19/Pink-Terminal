@@ -1,11 +1,28 @@
-import React from 'react';
+import React, { Component } from 'react'
 import Project from '../Project/Project';
+import projectData from './projectData';
 
-export default function Portfolio() {
-  return (
-    <main>
-      {/* //iterate over database with projects and render project for each project */}
-      <Project/>
-    </main>
-  )
+
+
+export default class Portfolio extends Component {
+
+  componentDidMount = () => {
+    this.createProject()
+  }
+  
+  createProject = () => {
+    projectData.forEach(project => {
+      console.log(project)
+      //what goes here?
+    })
+  }
+
+  render() {
+    return (
+      <main>
+        <Project/>
+      </main>
+    )
+  }
 }
+

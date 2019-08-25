@@ -1,26 +1,12 @@
 import React from 'react';
 import './App.css';
-import Nav from '../Nav/Nav';
-import Header from '../Header/Header';
-import About from '../About/About';
-import Portfolio from '../Portfolio/Portfolio';
-import Resume from '../Resume/Resume';
-import Media from '../Media/Media';
-import Contact from '../Contact/Contact';
-import Footer from '../Footer/Footer';
+import Loading from '../Loading/Loading';
 
 
 function App() {
   return (
     <div className="App">
-      <Nav/>
-      <Header/>
-      <About/>
-      <Portfolio/>
-      <Resume/>
-      <Media/>
-      <Contact/>
-      <Footer/>
+      <Loading/>
     </div>
   );
 }

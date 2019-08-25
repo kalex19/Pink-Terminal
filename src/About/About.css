@@ -1,7 +1,8 @@
 section {
   display: grid;
-  grid-template-columns: 30% 60%;
-  height: 400px;
+  grid-template-columns: 30% 40% 30%;
+  height: 500px;
+  margin-top: 3%;
 }
 
 .profile {
@@ -17,6 +18,10 @@ section {
   border-radius: 50%;
 }
 
+.content {
+  margin-left: 3%;
+}
+
 .aboutTitle {
   font-family: "Monoton";
   color: black;
@@ -24,6 +29,17 @@ section {
   word-spacing: 15px;
 }
 
-.content {
-  margin-left: 3%;
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+}
+
+.fab {
+  color: #ff0097e8;
+  font-size: 2em;
+}
+
+#icon {
+  margin: 4% 0;
+  margin-left: 80%;
 }
