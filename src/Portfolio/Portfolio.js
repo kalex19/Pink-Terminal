@@ -19,7 +19,7 @@ export default class Portfolio extends Component {
 
   render() {
     return (
-      <main>
+      <main id="portfolio">
         <Project/>
       </main>
     )

@@ -15,7 +15,6 @@ h1 {
   text-align: center;
   font-family: "Monoton";
   background-color: #ff0097e8;
-  /* cinzel, cardo, monoton!, barriecito, Reenie Beanie,  */
 }
 
 .menuOptions {
@@ -30,6 +29,8 @@ a {
   font-family: "reenie beanie";
   font-size: 1.5em;
   font-weight: 600; 
+  text-decoration: none;
+  color: black;
 }
 
 a:hover {

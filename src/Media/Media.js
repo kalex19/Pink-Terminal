@@ -3,7 +3,7 @@ import Content from '../Content/Content';
 
 export default function Media() {
   return (
-    <main>
+    <main id="media">
       {/* //iterate over database with projects and render project for each project */}
       <Content/>
     </main>

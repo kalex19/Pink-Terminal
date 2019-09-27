@@ -7,11 +7,11 @@ export class Nav extends Component {
       <nav className="navContainer">
         <h1>PINK ● TERMINAL</h1>
         <div className="menuOptions">
-          <a>ABOUT</a>
-          <a>PORTFOLIO</a>
-          <a>RESUME</a>
-          <a>MEDIA</a>
-          <a>CONTACT</a>
+          <a href='#about'>ABOUT</a>
+          <a href='#portfolio'>PORTFOLIO</a>
+          <a href='#resume'>RESUME</a>
+          <a href='#media'>MEDIA</a>
+          <a href='#contact'>CONTACT</a>
         </div>
       </nav>
     )
