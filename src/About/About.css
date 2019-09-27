@@ -7,7 +7,7 @@ section {
 
 .profile {
   border-right: 5px solid #ff0097e8;
-  background-image: url('./IMG_7052.jpg');
+  background-image: url('./Professional Photo.jpg');
   border-radius: 50%;
   margin: 5% 15%;
   background-repeat: no-repeat;
@@ -42,4 +42,9 @@ section {
 #icon {
   margin: 4% 0;
   margin-left: 80%;
+}
+
+.spanStyle {
+  color: #ff0097e8;
+  font-family: 'Beth Ellen';
 }

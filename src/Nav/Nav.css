@@ -24,7 +24,7 @@ h1 {
   margin-top: 10%;
 }
 
-a {
+.link {
   height: 40px;
   font-family: "reenie beanie";
   font-size: 1.5em;
@@ -33,6 +33,6 @@ a {
   color: black;
 }
 
-a:hover {
+.link:hover {
   border-bottom: 1px solid #ff0097e8;
 }
