@@ -1,15 +1,9 @@
- const projectData = [
-{"id": 0, "title":"Vue Your Todos", "description": "", "skillsUsed": [], "url": "", "image": ""},
-{"id": 1, "title":"", "description": "", "skillsUsed": [], "url": "", "image": ""},
-{"id": 2, "title":"", "description": "", "skillsUsed": [], "url": "", "image": ""},
-{"id": 3, "title":"", "description": "", "skillsUsed": [], "url": "", "image": ""},
-{"id": 4, "title":"", "description": "", "skillsUsed": [], "url": "", "image": ""},
-{"id": 5, "title":"", "description": "", "skillsUsed": [], "url": "", "image": ""},
-{"id": 6, "title":"", "description": "", "skillsUsed": [], "url": "", "image": ""},
-{"id": 7, "title":"", "description": "", "skillsUsed": [], "url": "", "image": ""},
-{"id": 8, "title":"", "description": "", "skillsUsed": [], "url": "", "image": ""},
-{"id": 9, "title":"", "description": "", "skillsUsed": [], "url": "", "image": ""},
-{"id": 10, "title":"", "description": "", "skillsUsed": [], "url": "", "image": ""}
+const projectData = [
+{"id": 1, "title":"SOPHIA", "description": "SOPHIA is a speech operated personal household interactive assistant. This app is built for two audiences: Clients and Caretakers. Clients are anyone with a disability (physical, cognitive, long-term, temporary) who needs care. Caretakers include anyone who is willing to help take care of clients. Taking care could include running errands, cleaning, yardwork, paying bills, grocery shopping, etc. SOPHIA was built to connect clients to caretakers to help meet their daily needs.Please reference the user stories to understand the full functionality of SOPHIA.SOPHIA is an A11Y app with a large focus on accessibility and was create with consulting from Accessibility expert Chris DeMars @chrisdemars.", "skillsUsed": ["React Native", "Redux", "JavaScript", "Jest", "Ruby", "CircleCi", "TravisCi", "Google Speech-To-Text API", "PostgresSQL", "RSpec"], "url": "https://github.com/kalex19/Sophia-Native", "image": "./SOPHIA.png"},
+{"id": 2, "title":"Palette Picker", "description": "Palette Picker was created to help designers and developers pick the perfect color palette for their site or application. The project was developed with Express, Knex, Node.js, and React. It is deployed on Heroku and tested using Supertest.", "skillsUsed": ["React", "Redux", "Jest", "Supertest"], "url": "https://github.com/kalex19/palette-picker-front-end", "image": "./PalettePicker.png"},
+{"id": 3, "title":"BYOBooks", "description": "This project focuses on learning back-end technologies: Node/Express, Knex, SQL, Postgres.The developer created a one-to-many relational database based on classic books and the book reviews.", "skillsUsed": ["Node", "Express", "Knex", "PostgresSQL"], "url": "https://github.com/kalex19/BYOBooks", "image": "./BYOBooks.png"},
+{"id": 4, "title":"Vue Your Todos", "description":"The developer learned Vue and created this app in several hours. This is a simple todo app. The user can add, complete, delete, star, and edit their todos." , "skillsUsed": ["Vue", "JavaScript"], "url": "https://github.com/kalex19/Vue-Todo-List", "image": "./VueTodos.png"},
+{"id": 5, "title":"BetterFlix", "description": "This project is a movie app that allows the user to see now playing, popular, and currently top rated movies. The user can also select a genre to see all of the recommended movies in that genre. Once the user is logged in to their account and viewing movies, they can select a movie to see more information about the movie or favorite the movie. All of their favorite movies will be stored and are viewable upon re-login. If the user does not see a movie they are looking for, they can search for a specific movie. This project was completed in a week.", "skillsUsed": ["React", "React Router", "Thunks", "Jest", "Enzyme"], "url": "https://github.com/kalex19/Better-Flix", "image": "./BetterFlix.png"},
 ]
 
 module.exports = projectData;

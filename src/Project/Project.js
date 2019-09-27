@@ -1,11 +1,23 @@
 import React from 'react';
 
-export default function Project() {
+const Project = (props) => {
+
+  const showSkills = () => {
+    const skills = props.skillsUsed
+    return skills.map(skill => {
+      return <li className="skilItem">{skill}</li>
+    })
+  }
+
   return (
     <section>
-      <h2>Project Title</h2>
-      <img></img>
-      <button>Github</button>
+      <h2>{props.title}</h2>
+      <img src={props.image}/>
+      <p>{props.description}</p>
+      <ul>{showSkills()}</ul>
+      <i class="fab fa-github"><a href={props.url}></a></i>
     </section>
   )
 }
+
+export default Project;

@@ -1,28 +1,24 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Project from '../Project/Project';
 import projectData from './projectData';
 
+const Portfolio = () => {
 
-
-export default class Portfolio extends Component {
-
-  componentDidMount = () => {
-    this.createProject()
-  }
-  
-  createProject = () => {
-    projectData.forEach(project => {
-      console.log(project)
-      //what goes here?
+const createProject = () => {
+    return projectData.map(project => {
+      return <Project {...project} key={project.id} className="project"/>
     })
   }
-
-  render() {
+  
     return (
-      <main id="portfolio">
-        <Project/>
+      <main id="portfolio" >
+        <section className="projectContainer">
+          {createProject()}
+        </section>
       </main>
     )
-  }
 }
+
+export default Portfolio;
+
 

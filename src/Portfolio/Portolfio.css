@@ -1,0 +1,21 @@
+#portfolio {
+  background-color: lightslategray;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectContainer {
+  display: flex;
+  background-color: #fff;
+  min-width: 100%;
+  min-height: 200px;
+  overflow-x: auto;
+}
+
+.project {
+  background-color: #ccc;
+  min-width: 200px;
+  margin: 5px;
+}
