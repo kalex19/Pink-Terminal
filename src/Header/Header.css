@@ -1,48 +1,55 @@
 header {
-  padding-top: 150px;
+	padding-top: 150px;
 }
 
 .gallery {
-  height: 800px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url('./carlos-irineu-da-costa-bjsaHc2jx3Y-unsplash.jpg');
-  padding: 1% 3%;
+	height: 800px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('./ian-keefe-nGOK_EqQpY4-unsplash.jpg');
+	padding: 1% 3%;
 }
 
 /* make gallery with dots to scroll, each new image has a new quote and an image that represents me/i took?? */
 
 .header {
-  color: #ff0097e8;
-  font-family: "Beth Ellen";
-  font-size: 3em;
-  text-align: center;
+	color: #ff0097e8;
+	font-family: "Beth Ellen";
+	font-size: 3em;
+	text-align: center;
 }
 
 .message {
-  text-align: center;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 4em;
-  word-spacing: 15px;
-  margin: 0 30%;
-  justify-content: center;
+	text-align: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 4em;
+	word-spacing: 15px;
+	margin: 0 30%;
+	justify-content: center;
 }
 
 .icon {
-  font-size: 7em;
-  color: white;
-  margin: 15% 0;
-  text-align: center;
-  border-radius: 50%;
-  -webkit-transition: -webkit-transform .18s ease-in-out;
-          transition:         transform .18s ease-in-out;
+	margin-top: 12%;
+	text-align: center;
+	border-radius: 50%;
+	-webkit-transition: -webkit-transform .30s ease-in-out;
+  transition: transform .30s ease-in-out;
 }
 
 .icon:hover {
-  color: #ff0097e8;
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
 }
 
+.iconStyle {
+	font-size: 10em;
+  color: white;
+ 
+}
 
+.iconStyle:hover {
+	color: #ff0097e8;
+  text-align: center;
+  text-decoration: none;
+}
